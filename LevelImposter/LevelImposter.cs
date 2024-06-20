@@ -49,6 +49,8 @@ namespace LevelImposter
             ClassInjector.RegisterTypeInIl2Cpp<LITeleporter>();
             ClassInjector.RegisterTypeInIl2Cpp<LITriggerable>();
             ClassInjector.RegisterTypeInIl2Cpp<LITriggerArea>();
+            ClassInjector.RegisterTypeInIl2Cpp<LIDeathArea>();
+            ClassInjector.RegisterTypeInIl2Cpp<LIShakeArea>();
             ClassInjector.RegisterTypeInIl2Cpp<LITriggerSpawnable>();
             ClassInjector.RegisterTypeInIl2Cpp<MinigameSprites>();
             ClassInjector.RegisterTypeInIl2Cpp<LagLimiter>();
